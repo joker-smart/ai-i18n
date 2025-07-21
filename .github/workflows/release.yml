@@ -7,29 +7,29 @@ on:
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
+    permissions: # 添加这一行
+      releases: write
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Archive Translations
-        id: archive_translations # 为此步骤添加ID
+        id: archive_translations
         run: |
-          # 检查 translations 目录是否存在
           if [ -d "translations" ]; then
-            cd translations # 进入目录
-            zip -r ../translations.zip ./* # 打包当前目录所有内容到上级目录
-            cd .. # 返回上级目录
+            cd translations
+            zip -r ../translations.zip ./*
+            cd ..
             echo "Generated translations.zip"
             ls -l translations.zip
-            echo "zip_created=true" >> $GITHUB_OUTPUT # 使用 GITHUB_OUTPUT 设置输出
+            echo "zip_created=true" >> $GITHUB_OUTPUT
           else
             echo "translations directory not found, skipping zip creation."
-            echo "zip_created=false" >> $GITHUB_OUTPUT # 使用 GITHUB_OUTPUT 设置输出
+            echo "zip_created=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Upload Translations Asset
-        # 仅当 translations.zip 被成功创建时才上传
         if: steps.archive_translations.outputs.zip_created == 'true'
         uses: actions/upload-release-asset@v1
         env:
@@ -39,4 +39,5 @@ jobs:
           asset_path: ./translations.zip
           asset_name: translations.zip
           asset_content_type: application/zip
+
 
