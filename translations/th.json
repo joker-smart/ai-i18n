@@ -1,6 +1,7 @@
 {
   "asdf": "ชื่อโฮสต์",
   "canopy_api_v3.child_display_name.indicators.description": "ชื่อบัญชี",
+  "canopy_api_v3.child_display_name.indicators.name": "",
   "canopy_api_v3.child_display_name.indicators.name2": "มูลค่าตลาด",
   "canopy_api_v3.child_display_name.indicators.name3": "TWR",
   "canopy_api_v3.error.access-forbidden": "ไม่อนุญาตให้เข้าถึง",

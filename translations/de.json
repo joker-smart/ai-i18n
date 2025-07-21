@@ -1,6 +1,7 @@
 {
   "asdf": "Hostname",
   "canopy_api_v3.child_display_name.indicators.description": "Kontoname",
+  "canopy_api_v3.child_display_name.indicators.name": "",
   "canopy_api_v3.child_display_name.indicators.name2": "Marktwert",
   "canopy_api_v3.child_display_name.indicators.name3": "TWR",
   "canopy_api_v3.error.access-forbidden": "Zugriff verweigert.",

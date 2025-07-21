@@ -1,6 +1,7 @@
 {
   "asdf": "主機名稱",
   "canopy_api_v3.child_display_name.indicators.description": "帳戶名稱",
+  "canopy_api_v3.child_display_name.indicators.name": "",
   "canopy_api_v3.child_display_name.indicators.name2": "市值",
   "canopy_api_v3.child_display_name.indicators.name3": "TWR",
   "canopy_api_v3.error.access-forbidden": "禁止访问。",

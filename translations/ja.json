@@ -1,6 +1,7 @@
 {
   "asdf": "ホスト名",
   "canopy_api_v3.child_display_name.indicators.description": "アカウント名",
+  "canopy_api_v3.child_display_name.indicators.name": "",
   "canopy_api_v3.child_display_name.indicators.name2": "市場価値",
   "canopy_api_v3.child_display_name.indicators.name3": "TWR",
   "canopy_api_v3.error.access-forbidden": "アクセスが拒否されました。",
