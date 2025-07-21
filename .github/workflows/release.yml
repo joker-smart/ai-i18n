@@ -8,7 +8,7 @@ jobs:
   build-and-release:
     runs-on: ubuntu-latest
     permissions: # 添加这一行
-      releases: write
+      contents: write # 授予对仓库内容的写入权限，包括创建/编辑 Release
 
     steps:
       - name: Checkout code
@@ -20,7 +20,7 @@ jobs:
           if [ -d "translations" ]; then
             cd translations
             zip -r ../translations.zip ./*
-            cd ..
+            cd 张译
             echo "Generated translations.zip"
             ls -l translations.zip
             echo "zip_created=true" >> $GITHUB_OUTPUT
@@ -39,5 +39,4 @@ jobs:
           asset_path: ./translations.zip
           asset_name: translations.zip
           asset_content_type: application/zip
-
 
