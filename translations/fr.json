@@ -1,0 +1,10 @@
+{
+  "asdf": "nom d'hôte",
+  "canopy_api_v3.child_display_name.indicators.description": "Nom du compte",
+  "canopy_api_v3.child_display_name.indicators.name2": "Valeur marchande",
+  "canopy_api_v3.child_display_name.indicators.name3": "TWR",
+  "canopy_api_v3.error.access-forbidden": "Accès interdit.",
+  "canopy_api_v3.error.need-switch-to-a-user-to-use-this-method": "Vous devez d'abord sélectionner un administrateur partenaire ou un client",
+  "canopy_api_v3.xirr.indicators.description": "Le TRI est le rendement annualisé qui ramène la valeur actuelle nette de tous les flux de trésorerie à zéro. Il reflète le calendrier et la taille des contributions et des distributions.\n$$\n0 = \\sum_{{t=1}}^{{n}} \\frac{{CF_t}}{{(1 + \\text{{TRI}})^t}}\n$$",
+  "v": "code"
+}
