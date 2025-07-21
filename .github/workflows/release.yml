@@ -1,0 +1,43 @@
+name: Create i18n Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Archive Google Apps Script files
+        run: |
+          # 检查 translations 目录是否存在，如果不存在则不进行打包
+          if [ -d "translations" ]; then
+            # 打包 translations 目录下的所有文件和子目录到 translations.zip
+            # -r 表示递归包含子目录
+            # translations/ 表示将整个 translations 目录作为压缩包的根目录
+            zip -r translations.zip translations/
+            echo "Generated translations.zip"
+            ls -l translations.zip
+          else
+            echo "translations directory not found, skipping zip creation."
+            # 可以选择在这里让 workflow 失败，或者只是跳过
+            # exit 1 # 如果你想在目录不存在时失败，取消注释此行
+          fi
+
+      - name: Upload Translations Asset
+        # 只有当 translations.zip 存在时才上传
+        if: success() && steps.archive_translations.outputs.zip_exists == 'true'
+        id: upload_translations_asset # 添加一个ID，以便后续引用
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./translations.zip
+          asset_name: translations.zip
+          asset_content_type: application/zip
+
