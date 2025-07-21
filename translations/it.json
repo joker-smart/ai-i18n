@@ -1,0 +1,10 @@
+{
+  "asdf": "hostname",
+  "canopy_api_v3.child_display_name.indicators.description": "Nome account",
+  "canopy_api_v3.child_display_name.indicators.name2": "Valore di mercato",
+  "canopy_api_v3.child_display_name.indicators.name3": "TWR",
+  "canopy_api_v3.error.access-forbidden": "Accesso negato.",
+  "canopy_api_v3.error.need-switch-to-a-user-to-use-this-method": "È necessario selezionare prima un amministratore partner o un cliente",
+  "canopy_api_v3.xirr.indicators.description": "Il TIR è il rendimento annualizzato che azzera il valore attuale netto di tutti i flussi di cassa. Riflette la tempistica e l'entità dei contributi e delle distribuzioni.\n$$\n0 = \\sum_{{t=1}}^{{n}} \\frac{{CF_t}}{{(1 + \\text{{IRR}})^t}}\n$$",
+  "v": "codice"
+}

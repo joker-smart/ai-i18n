@@ -1,0 +1,10 @@
+{
+  "asdf": "ชื่อโฮสต์",
+  "canopy_api_v3.child_display_name.indicators.description": "ชื่อบัญชี",
+  "canopy_api_v3.child_display_name.indicators.name2": "มูลค่าตลาด",
+  "canopy_api_v3.child_display_name.indicators.name3": "TWR",
+  "canopy_api_v3.error.access-forbidden": "ไม่อนุญาตให้เข้าถึง",
+  "canopy_api_v3.error.need-switch-to-a-user-to-use-this-method": "ต้องเลือกผู้ดูแลระบบพาร์ทเนอร์หรือลูกค้าก่อน",
+  "canopy_api_v3.xirr.indicators.description": "IRR คือผลตอบแทนรายปีที่ทำให้มูลค่าปัจจุบันสุทธิของกระแสเงินสดทั้งหมดเป็นศูนย์ ซึ่งสะท้อนถึงจังหวะเวลาและขนาดของการมีส่วนร่วมและการกระจาย\n$$\n0 = \\sum_{{t=1}}^{{n}} \\frac{{CF_t}}{{(1 + \\text{{IRR}})^t}}\n$$",
+  "v": "รหัส"
+}

@@ -1,0 +1,10 @@
+{
+  "asdf": "hostname",
+  "canopy_api_v3.child_display_name.indicators.description": "Account Name",
+  "canopy_api_v3.child_display_name.indicators.name2": "Market Value",
+  "canopy_api_v3.child_display_name.indicators.name3": "TWR",
+  "canopy_api_v3.error.access-forbidden": "Access forbidden.",
+  "canopy_api_v3.error.need-switch-to-a-user-to-use-this-method": "Need to select a partner admin or customer first",
+  "canopy_api_v3.xirr.indicators.description": "IRR is the annualized return that sets the net present value of all cash flows to zero. It reflects timing and size of contributions and distributions.\n$$\n0 = \\sum_{{t=1}}^{{n}} \\frac{{CF_t}}{{(1 + \\text{{IRR}})^t}}\n$$",
+  "v": "code"
+}
