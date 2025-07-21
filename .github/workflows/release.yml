@@ -20,7 +20,7 @@ jobs:
           if [ -d "translations" ]; then
             cd translations
             zip -r ../translations.zip ./*
-            cd 张译
+            cd ..
             echo "Generated translations.zip"
             ls -l translations.zip
             echo "zip_created=true" >> $GITHUB_OUTPUT
