@@ -1,0 +1,13 @@
+{
+  "# V3 Indicators": "",
+  "# V3 general": "",
+  "asdf": "ホスト名",
+  "canopy_api_v3.child_display_name.indicators.description": "アカウント名",
+  "canopy_api_v3.child_display_name.indicators.name": "",
+  "canopy_api_v3.child_display_name.indicators.name2": "市場価値",
+  "canopy_api_v3.child_display_name.indicators.name3": "TWR",
+  "canopy_api_v3.error.access-forbidden": "アクセスが拒否されました。",
+  "canopy_api_v3.error.need-switch-to-a-user-to-use-this-method": "まずパートナー管理者または顧客を選択する必要があります",
+  "canopy_api_v3.xirr.indicators.description": "IRRは、すべてのキャッシュフローの正味現在価値をゼロに設定する年率です。これは、貢献と分配のタイミングと規模を反映します。\n$$\n0 = \\sum_{{t=1}}^{{n}} \\frac{{CF_t}}{{(1 + \\text{{IRR}})^t}}\n$$",
+  "v": "コード"
+}

@@ -1,0 +1,13 @@
+{
+  "# V3 Indicators": "",
+  "# V3 general": "",
+  "asdf": "Hostname",
+  "canopy_api_v3.child_display_name.indicators.description": "Kontoname",
+  "canopy_api_v3.child_display_name.indicators.name": "",
+  "canopy_api_v3.child_display_name.indicators.name2": "Marktwert",
+  "canopy_api_v3.child_display_name.indicators.name3": "TWR",
+  "canopy_api_v3.error.access-forbidden": "Zugriff verweigert.",
+  "canopy_api_v3.error.need-switch-to-a-user-to-use-this-method": "Sie müssen zuerst einen Partneradministrator oder Kunden auswählen",
+  "canopy_api_v3.xirr.indicators.description": "Der IRR ist die annualisierte Rendite, die den Barwert aller Cashflows auf Null setzt. Er spiegelt den Zeitpunkt und die Höhe von Beiträgen und Ausschüttungen wider.\n$$\n0 = \\sum_{{t=1}}^{{n}} \\frac{{CF_t}}{{(1 + \\text{{IRR}})^t}}\n$$",
+  "v": "Code"
+}
