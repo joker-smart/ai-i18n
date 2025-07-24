@@ -5,7 +5,7 @@
   "canopy_api_v3.child_display_name.indicators.name2": "市值",
   "canopy_api_v3.child_display_name.indicators.name3": "TWR",
   "canopy_api_v3.error.access-forbidden": "禁止访问。",
-  "canopy_api_v3.error.need-switch-to-a-user-to-use-this-method": "需要先选择一个合作伙伴管理员或客户",
-  "canopy_api_v3.xirr.indicators.description": "IRR 是年化報酬率，可將所有現金流量的淨現值設為零。它反映了出入金的時間和規模。\n$$\n0 = \\sum_{{t=1}}^{{n}} \\frac{{CF_t}}{{(1 + \\text{{IRR}})^t}}\n$$",
+  "canopy_api_v3.error.need-switch-to-a-user-to-use-this-method": "需要先选择合作伙伴管理员或客户",
+  "canopy_api_v3.xirr.indicators.description": "IRR 是年化報酬率，可將所有現金流量的淨現值設為零。它反映了出資和分配的時間點及規模。\n$$\n0 = \\sum_{{t=1}}^{{n}} \\frac{{CF_t}}{{(1 + \\text{{IRR}})^t}}\n$$",
   "v": "代碼"
 }
