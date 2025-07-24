@@ -1,0 +1,11 @@
+{
+  "asdf": "hostname",
+  "canopy_api_v3.child_display_name.indicators.description": "Nome da Conta",
+  "canopy_api_v3.child_display_name.indicators.name": "Nome da Conta",
+  "canopy_api_v3.child_display_name.indicators.name2": "Valor de Mercado",
+  "canopy_api_v3.child_display_name.indicators.name3": "TWR",
+  "canopy_api_v3.error.access-forbidden": "Acesso proibido.",
+  "canopy_api_v3.error.need-switch-to-a-user-to-use-this-method": "É necessário selecionar primeiro um administrador de parceiro ou cliente",
+  "canopy_api_v3.xirr.indicators.description": "A TIR é o retorno anualizado que define o valor presente líquido de todos os fluxos de caixa como zero. Ela reflete o tempo e o tamanho das contribuições e distribuições.\n$$\n0 = \\sum_{{t=1}}^{{n}} \\frac{{CF_t}}{{(1 + \\text{{IRR}})^t}}\n$$",
+  "v": "código"
+}

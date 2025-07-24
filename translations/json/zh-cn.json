@@ -1,0 +1,11 @@
+{
+  "asdf": "主机名",
+  "canopy_api_v3.child_display_name.indicators.description": "账户名称",
+  "canopy_api_v3.child_display_name.indicators.name": "账户名称",
+  "canopy_api_v3.child_display_name.indicators.name2": "市值",
+  "canopy_api_v3.child_display_name.indicators.name3": "TWR",
+  "canopy_api_v3.error.access-forbidden": "禁止访问。",
+  "canopy_api_v3.error.need-switch-to-a-user-to-use-this-method": "需要先选择合作伙伴管理员或客户",
+  "canopy_api_v3.xirr.indicators.description": "IRR是年化回报率，它使所有现金流的净现值等于零。它反映了出资和分配的时间和规模。\n$$\n0 = \\sum_{{t=1}}^{{n}} \\frac{{CF_t}}{{(1 + \\text{{IRR}})^t}}\n$$",
+  "v": "代码"
+}
